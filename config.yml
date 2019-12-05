@@ -1,6 +1,6 @@
 service:
   name: base-service
-  port: 3000
+  port: 3001
   tags: ['api']
 consul:
   host: 106.12.173.182
