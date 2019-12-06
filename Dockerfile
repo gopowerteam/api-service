@@ -16,7 +16,7 @@ COPY --from=builder /builder/ /app/
 
 EXPOSE 3000
 
-ENTRYPOINT [ "main", "/app/dist/main" ]
+ENTRYPOINT [ "node", "/app/dist/main" ]
 
 
 
